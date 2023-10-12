@@ -1,0 +1,21 @@
+.search-bar {
+    border: 1px solid lightgray;
+    border-radius:5px;
+    padding:10px;
+    margin-bottom:10px;
+    background-color:rgb(120, 120, 230);
+    color:#fff;
+    font-weight:bold;
+}
+
+.search-bar input{
+    padding:5px;
+    outline:none;
+    font-size:18px;
+}
+
+.search-bar form{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
